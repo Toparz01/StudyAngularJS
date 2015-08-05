@@ -11,6 +11,7 @@ namespace TypeScriptHTMLApp1
     {
         protected void Application_Start()
         {
+            int i = 0;
             GlobalConfiguration.Configure(WebApiConfig.Register);
         }
     }
